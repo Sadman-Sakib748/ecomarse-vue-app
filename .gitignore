@@ -72,3 +72,4 @@ temp/
 # Uncomment if uploads shouldn't be committed
 # ==========================
 # uploads/
+.vercel

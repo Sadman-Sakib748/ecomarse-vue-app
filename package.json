@@ -5,8 +5,8 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts",
     "seed": "ts-node src/utils/seeder.ts",
     "type-check": "tsc --noEmit"
   },
